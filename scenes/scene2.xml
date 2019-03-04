@@ -1,0 +1,18 @@
+
+<scene>
+	<light>
+		<sublight pos="640,240,-10000" intensity="255,255,255"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="-2000,0,0" dir="1,0,0"/>
+	<material>
+		<uniform diffusion="255,255,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+	</material>
+	<objects>
+		<sphere center="233,290,0" radius="100" mat="0" isneg="0"/>
+		<sphere center="407,290,0" radius="100" mat="1" isneg="0"/>
+		<sphere center="320,140,0" radius="100" mat="2" isneg="0"/>
+	</objects>
+</scene>

@@ -1,0 +1,25 @@
+
+<scene>
+
+	<camera pos="-2000,0,0" dir="1,0,0"/>
+
+	<light>
+		<sublight pos="-2000,0,0" intensity="255,255,255"/>
+		<ambiant color="0,0,0"/>
+	</light>
+
+	<material>
+		<uniform diffusion="255,0,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,255,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,0" r="100" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,0" r="0" t="80" specvalue="100" specpower="100" n="1400"/>
+		<texture pathtext="textures/redbrick.xpm" angle="0" center="5000,200,200" width="1000" height="1000" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+	</material>
+
+	<objects>
+		<sphere center="400,0,0" radius="200" mat="1" isneg="0"/>
+		<sphere center="0,-300,0" radius="100" mat="4" isneg="0"/>
+		<plane normale="1,0,0" d="-5000" mat="5"/>
+	</objects>
+</scene>

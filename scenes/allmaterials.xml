@@ -1,0 +1,30 @@
+
+<scene>
+	<light>
+		<sublight pos="800,100,500" intensity="255,255,255" radius="0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="0,0,1200" dir="1,0,-10"/>
+	<material>
+		<uniform diffusion="153,51,230" r="0" t="0" specvalue="100" specpower="50" n="0" bump="0"/>
+		<uniform diffusion="153,51,230" r="90" t="0" specvalue="100" specpower="50" n="0" bump="0"/>
+		<checker diffusion="26,52,78" diffusionbis="178,204,230" angle="0" width="50" height="50" r="50" t="0" specvalue="100" specpower="50" n="0" bump="0"/>
+		<perturb diffusion="13,46,13" diffusionbis="41,71,41" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<uniform diffusion="0,0,0" r="0" t="0" specvalue="100" specpower="50" n="2000" bump="0"/>
+		<wood diffusion="27,19,13" diffusionbis="107,67,48" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<marble diffusion="102,76,51" diffusionbis="153,178,203" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<uniform diffusion="100,51,60" r="0" t="0" specvalue="100" specpower="50" n="0" bump="50"/>
+		<uniform diffusion="100,71,200" r="0" t="0" specvalue="100" specpower="50" n="0" bump="10"/>
+	</material>
+	<objects>
+		<sphere center="0,0,-9999999" radius="9999899" mat="8" isneg="0"/>
+		<sphere center="-300,150,0" radius="150" mat="0" isneg="0"/>
+		<sphere center="300,150,0" radius="125" mat="1" isneg="0"/>
+		<sphere center="0,150,0" radius="100" mat="2" isneg="0"/>
+		<sphere center="600,125,0" radius="140" mat="3" isneg="0"/>
+		<sphere center="-275,-150,150" radius="125" mat="4" isneg="0"/>
+		<sphere center="0,-150,0" radius="150" mat="5" isneg="0"/>
+		<sphere center="315,-150,0" radius="150" mat="6" isneg="0"/>
+		<sphere center="625,-175,0" radius="125" mat="7" isneg="0"/>
+	</objects>
+</scene>

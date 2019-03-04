@@ -1,0 +1,33 @@
+
+<scene>
+
+	<camera pos="0,-2000,0" dir="0,1,0"/>
+
+	<light>
+		<sublight pos="2000,-1000,0" intensity="255,255,255"/>
+		<sublight pos="2000,-1000,0" intensity="255,255,255" translation="-4000,0,0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+
+	<material>
+		<uniform diffusion="255,0,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,255,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+	</material>
+
+	<objects>
+		<icyl dir="0,0,1" axispoint="900,200,0" radius="150" mat="2" isneg="0"/>
+		<icyl dir="0,0,1" axispoint="900,200,0" radius="150" mat="2" translation="-1800,0,0" isneg="0"/>
+		<icyl dir="0,0,1" axispoint="900,200,0" radius="150" mat="2" translation="0,700,0" isneg="0"/>
+		<icyl dir="0,0,1" axispoint="900,200,0" radius="150" mat="2" translation="-1800,700,0" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="-1800,0,0" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="0,700,0" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="-1800,700,0" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="0,0,-1000" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="-1800,0,-1000" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="0,700,-1000" isneg="0"/>
+		<sphere center="900,200,500" radius="250" mat="2" translation="-1800,700,-1000" isneg="0"/>
+		<sphere center="0,0,0" radius="100" mat="0" isneg="0"/>
+	</objects>
+</scene>

@@ -1,0 +1,21 @@
+
+<scene>
+	<light>
+		<sublight pos="0,0,2000" intensity="255,255,255"/>
+	</light>
+	<camera pos="0,0,2000" dir="0,0,-1"/>
+	<material>
+		<uniform diffusion="255,255,0" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+	</material>
+	<objects>
+		<icyl dir="1,0,1" axispoint="500,600,0" radius="100" mat="1"/>
+		<icyl dir="1,0,0" axispoint="500,0,0" radius="100" mat="1"/>
+		<icyl dir="1,0,0" axispoint="500,-400,0" radius="100" mat="1"/>
+		<sphere center="233,290,0" radius="100" mat="0"/>
+		<sphere center="407,290,0" radius="100" mat="1"/>
+		<sphere center="320,140,0" radius="100" mat="2"/>
+		<icone dir="0,1,0" axispoint="500,300,200" angle="15" mat="0"/>
+	</objects>
+</scene>

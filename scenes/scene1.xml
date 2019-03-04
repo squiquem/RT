@@ -1,0 +1,28 @@
+
+<scene>
+	<light>
+		<sublight pos="0,0,-2000" intensity="255,255,255" radius="0"/>
+		<sublight pos="0,0,1000" intensity="255,255,255" radius="0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="0,0,-2000" dir="0,0,1"/>
+	<material>
+		<uniform diffusion="255,255,0" r="" t="" specvalue="" specpower="" n=""/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<texture pathtext="textures/redbrick.xpm" angle="0" width="100" height="100" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<perturb diffusion="255,0,255" diffusionbis="0,255,0" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<marble diffusion="255,255,255" diffusionbis="0,0,0" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<wood diffusion="27,19,13" diffusionbis="107,68,48" r="0" t="0" specvalue="100" specpower="50" n="0" scale="1"/>
+		<waves diffusion="255,0,0" angle="0" width="100" height="100" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+	</material>
+	<objects>
+		<fcyl dir="2,0,1" axispoint="400,600,0" radius="100" mat="0" height="100" isneg="0"/>
+		<icyl dir="1,0,0" axispoint="500,0,0" radius="100" mat="3" isneg="0"/>
+		<icyl dir="1,0,0" axispoint="500,-400,0" radius="100" mat="7" isneg="0"/>
+		<sphere center="233,290,0" radius="100" mat="5" isneg="0"/>
+		<sphere center="407,290,0" radius="100" mat="6" isneg="0"/>
+		<sphere center="320,140,0" radius="100" mat="1" isneg="0"/>
+		<icone dir="0,1,0" axispoint="500,300,200" angle="15" mat="0" isneg="0"/>
+	</objects>
+</scene>

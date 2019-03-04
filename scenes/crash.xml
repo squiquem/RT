@@ -1,0 +1,24 @@
+
+<scene>
+
+	<camera pos="0,0,-1000" dir="0,0,100"/>
+
+	<light>
+		<sublight pos="2000,0,-1000" intensity="255,255,255"/>
+		<ambiant color="0,0,0"/>
+	</light>
+
+	<material>
+		<uniform diffusion="255,0,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,255,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,0,0" r="0" t="100" specvalue="100" specpower="100" n="1100"/>
+	</material>
+
+	<objects>
+		<sphere center="-200,-100,400" radius="150" mat="3" isneg="0"/>
+		<sphere center="200,-100,400" radius="150" mat="3" isneg="0"/>
+		<sphere center="100,0,800" radius="150" mat="0" isneg="0"/>
+		<plane normale="0,-1,0" d="-500" mat="1" translation="0,-950,0"/>
+	</objects>
+</scene>

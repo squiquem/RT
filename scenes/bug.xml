@@ -1,0 +1,29 @@
+<scene>
+	<light>
+		<sublight pos="-500,0,-2000" intensity="255,255,255" radius="0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="2170,0,-1649" dir="-7,0,6"/>
+	<material>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,0,0" r="100" t="100" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="255,255,0" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="50" n="0"/>
+	</material>
+	<objects>
+		<icyl dir="0,1,0" axispoint="230,-100,140" radius="100" mat="0" isneg="0"/>
+		<box start="-1000,-500,-1000" end="1000,-400,1000" mat="1" isneg="0"/>
+		<fcone dir="-5,8,-2" axispoint="600,-300,100" angle="22" height="100" mat="2" isneg="0"/>
+		<fcyl dir="0,-1,0" axispoint="-700,-300,-700" radius="100" height="300" mat="3" isneg="1"/>
+		<sphere center="233,290,-100" radius="70" mat="4" isneg="1"/>
+		<sphere center="320,140,-100" radius="70" mat="5" isneg="1"/>
+		<sphere center="407,290,0" radius="100" mat="6" isneg="0"/>
+		<sphere center="233,290,0" radius="100" mat="7" isneg="0"/>
+		<sphere center="320,140,0" radius="100" mat="8" isneg="0"/>
+	</objects>
+</scene>

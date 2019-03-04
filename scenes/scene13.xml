@@ -1,0 +1,22 @@
+
+<scene>
+
+	<camera pos="-3000,0,0" dir="1,0,0"/>
+
+	<light>
+		<sublight pos="-2000,0,200" intensity="255,255,255"/>
+		<ambiant color="0,0,0"/>
+	</light>
+
+	<material>
+		<uniform diffusion="100,100,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,100,100" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="100,0,100" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+	</material>
+
+	<objects>
+		<icyl dir="1,0,0" axispoint="0,-500,0" radius="150" mat="0" isneg="0"/>
+		<icone dir="0,0,1" axispoint="500,200,300" angle="15" mat="0" isneg="0"/>
+		<sphere center="0,0,0" radius="250" mat="2" isneg="0"/>
+	</objects>
+</scene>

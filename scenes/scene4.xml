@@ -1,0 +1,16 @@
+
+<scene>
+	<light>
+		<sublight pos="640,240,-2000" intensity="255,255,255"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="0,0,-3000" dir="0,0,1"/>
+	<material>
+		<uniform diffusion="255,255,0" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="0,255,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+		<uniform diffusion="255,0,255" r="0" t="0" specvalue="100" specpower="100" n="0"/>
+	</material>
+	<objects>
+		<icone dir="0,1,0" axispoint="500,300,200" angle="15" mat="0" isneg="0"/>
+	</objects>
+</scene>

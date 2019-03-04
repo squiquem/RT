@@ -1,0 +1,27 @@
+
+<scene>
+	<light>
+		<sublight pos="800,500,500" intensity="100,100,100" radius="100"/>
+		<sublight pos="-800,500,500" intensity="100,100,100" radius="100"/>
+		<sublight pos="0,100,-800" intensity="255,255,255" radius="0"/>
+		<sublight pos="800,100,-800" intensity="255,255,255" radius="0"/>
+		<sublight pos="-800,100,-800" intensity="255,255,255" radius="0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="-400,500,-800" dir="5,-7,12"/>
+	<material>
+		<uniform diffusion="255,0,0" r="50" t="0" specvalue="10" specpower="50" n="0"/>
+		<uniform diffusion="0,255,0" r="50" t="0" specvalue="10" specpower="50" n="0"/>
+		<uniform diffusion="0,0,255" r="50" t="0" specvalue="10" specpower="50" n="0"/>
+		<checker diffusion="255,255,255" diffusionbis="0,0,0" angle="0" width="100" height="100" r="50" t="0" specvalue="0" specpower="50" n="0"/>
+		<uniform diffusion="0,0,0" r="0" t="0" specvalue="0" specpower="50" n="0"/>
+	</material>
+	<objects>
+		<sphere center="-300,85,0" radius="100" mat="0" isneg="0"/>
+		<sphere center="0,85,0" radius="100" mat="1" isneg="0"/>
+		<sphere center="300,85,0" radius="100" mat="2" isneg="0"/>
+		<plane normale="0,-1,0" d="-15" mat="3"/>
+		<box start="720,475,495" end="790,525,505" mat="4" isneg="0"/>
+		<box start="-720,475,495" end="-790,525,505" mat="4" isneg="0"/>
+	</objects>
+</scene>

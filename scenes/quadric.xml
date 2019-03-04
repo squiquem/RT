@@ -1,0 +1,20 @@
+
+<scene>
+	<light>
+		<sublight pos="0,0,-2000" intensity="255,255,255" radius="0"/>
+		<ambiant color="0,0,0"/>
+	</light>
+	<camera pos="0,0,-2000" dir="0,0,1"/>
+	<material>
+		<uniform diffusion="255,0,0" r="0" t="0" specvalue="100" specpower="50" n="0" bump="0"/>
+	</material>
+	<objects>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,10,0" translation="200,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,30,0" translation="400,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,40,0" translation="600,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,-20,0" translation="-200,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,-40,0" translation="-400,0,0"/>
+		<quadric center="0,0,0" quadric="5,1,1" sizequadric="10000" mat="0" isneg="0" rotation="0,-60,0" translation="-600,0,0"/>
+	</objects>
+</scene>
