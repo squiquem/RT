@@ -6,7 +6,7 @@
 /*   By: squiquem <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/02 19:41:27 by squiquem          #+#    #+#             */
-/*   Updated: 2019/02/22 12:44:53 by squiquem         ###   ########.fr       */
+/*   Updated: 2019/03/05 11:57:37 by squiquem         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -142,8 +142,6 @@ double		shadow_from_point(t_ray lray, t_vec dist, t_env *e)
 	inshdw = in_shadow(lray, e, magnitude(dist));
 	if (inshdw == EMPTY)
 		return (1);
-	else if (inshdw != EMPTY && e->mat[e->item[inshdw].mat].n)
-		return (e->mat[e->item[inshdw].mat].transparency);
 	else
-		return (0);
+		return (e->mat[e->item[inshdw].mat].transparency);
 }

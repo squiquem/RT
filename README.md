@@ -1,13 +1,11 @@
 # RT
 
-RT is a 42 project developped by squiquem, sederet, asarasy and qsebasti, which is designed to further student's understanding of the concepts behind ray tracing.
-<br/>
-___
+RT is a 42 project developped by squiquem, sederet, asarasy and qsebasti, which is designed to further student's understanding of the concepts behind ray tracing.<br/>
+____
 <br/>
 <img align="center" src="https://image.noelshack.com/fichiers/2019/08/2/1550605873-screen-spheres.png" width="100%" alt="Spheres"><br/>
 <img align="center" src="https://image.noelshack.com/fichiers/2019/07/1/1549893934-screen-shot-2019-02-11-at-3-04-52-pm.png" width="100%" alt="multiobj"><br/>
-<img align="center" src="https://image.noelshack.com/fichiers/2019/08/2/1550605873-screen-allmaterial.png" width="100%" alt="allmaterial">
-<br/>
+<img align="center" src="https://image.noelshack.com/fichiers/2019/08/2/1550605873-screen-allmaterial.png" width="100%" alt="allmaterial"><br/>
 ____
 
 ## Scene
@@ -18,7 +16,7 @@ ____
 ## Features
 
 - The scene can be modified in real-time and the program uses multithreading to speed up calculations.<br/>
-- Every object can be modified by its type, color or variable as reflection, transparency, coefficient of refraction and more.<br />
+- Every object can be modified by its type, color or variable as reflection, transparency, coefficient of refraction and more.<br/>
 - Any object can have a texture (xpm format, perlin sound, checkerboard, etc.).<br/>
 - The program supports filters as sepia or black and white and more.<br/>
 - Change the reflection max value for all the reflective surfaces.<br/>
@@ -52,10 +50,12 @@ Finally, apply the changes.<br/>
 On 3rd tabulation you can change the variables for an object.
 ____
 
-## Installing and launch
+## Install and launch
 
     git clone vogsphere@vogsphere.42.fr:intra/2018/activities/rt/squiquem ~/RT
-    cd ~/RT && make && ./RT scenes/scene1.xml
+    cd ~/RT
+	make
+	./RT scenes/<scene>
 
 Important: you need the libpng library for the screenshot feature. You will also need change the path where you can find that library in the Makefile at `$(INCPNG)` and `$(LIBPNG)`.
 ____
