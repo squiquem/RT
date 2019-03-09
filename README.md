@@ -52,8 +52,7 @@ ____
 
 ## Install and launch
 
-    git clone vogsphere@vogsphere.42.fr:intra/2018/activities/rt/squiquem ~/RT
-    cd ~/RT
+    git clone https://github.com/squiquem/RT ~/RT && cd ~/RT
 	make
 	./RT scenes/<scene>
 
@@ -61,3 +60,4 @@ Important: you need the libpng library for the screenshot feature. You will also
 ____
 <br/>
 We do not own any right on every used image in the program.
+If you have any question or suggestion, feel free to send me an email at squiquem@student.42.fr
