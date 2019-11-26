@@ -3,9 +3,9 @@
 RT is a 42 project developped by squiquem, sederet, asarasy and qsebasti, which is designed to further student's understanding of the concepts behind ray tracing.<br/>
 ____
 <br/>
-<img align="center" src="https://image.noelshack.com/fichiers/2019/08/2/1550605873-screen-spheres.png" width="100%" alt="Spheres"><br/>
-<img align="center" src="https://image.noelshack.com/fichiers/2019/07/1/1549893934-screen-shot-2019-02-11-at-3-04-52-pm.png" width="100%" alt="multiobj"><br/>
-<img align="center" src="https://image.noelshack.com/fichiers/2019/08/2/1550605873-screen-allmaterial.png" width="100%" alt="allmaterial"><br/>
+<img align="center" src="https://github.com/squiquem/RT/blob/master/screenshots/screen-spheres.png" width="100%" alt="Spheres"><br/>
+<img align="center" src="https://github.com/squiquem/RT/blob/master/screenshots/multiobj.png" width="100%" alt="multiobj"><br/>
+<img align="center" src="https://github.com/squiquem/RT/blob/master/screenshots/screen-allmaterial.png" width="100%" alt="allmaterial"><br/>
 ____
 
 ## Scene
