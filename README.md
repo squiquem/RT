@@ -52,11 +52,13 @@ ____
 
 ## Install and launch
 
-    git clone https://github.com/squiquem/RT ~/RT && cd ~/RT
-	make
-	./RT scenes/<scene>
-
 Important: you need the libpng library for the screenshot feature. You will also need change the path where you can find that library in the Makefile at `$(INCPNG)` and `$(LIBPNG)`.
+
+	$> rm -rf $HOME/.brew && git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew && echo 'export PATH=$HOME/.brew/bin:$PATH' >> $HOME/.zshrc && source $HOME/.zshrc && brew update && brew install libpng
+    $> git clone https://github.com/squiquem/RT ~/RT && cd ~/RT
+	$> make
+	$> ./RT scenes/<scene>
+
 ____
 <br/>
 We do not own any right on every used image in the program.
